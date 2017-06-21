@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Suosikkisupersankari</h1>
+    <form id="form1" action="http://localhost:3000/supersankari" method="POST">
+      <label>Nimi:</label>
+      <input name="nimi" placeholder="Syötä nimi" type="text" />
+      <br />
+      <t class="merkonomi">Suosikkisupersankari:</t>
+      <br />
+      <input name="supersankari" value="Batman" type="radio" />
+      <t>Batman</t>
+      <br />
+      <input name="supersankari" value="Kapteeni Amerikka" type="radio" />
+      <t class="ameeba">Kapteeni Amerikka</t>
+      <br />
+      <input name="supersankari" value="Hessu" type="radio" />
+      <t id="meksiko">Hessu</t>
+      <br />
+      <input value="Lähetä" type="submit" />
+    </form>
+    <form action="http://localhost:3000/vastaukset" method="GET">
+      <input value="Tietokanta" type="submit">
+    </form>
+    <form action="http://localhost:3000/tyhjenna" method="GET">
+      <input value="Tyhjennä" type="submit">
+    </form>
+    <p id="tekks"></p>
+    <script src="script.js"></script>
+  </body>
+
+</html>

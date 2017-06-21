@@ -1,0 +1,164 @@
+/* Styles go here */
+
+body {
+    background-color:#f5f400;
+    color:#353833;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:76%;
+    margin:30px;
+    background: url(http://4.bp.blogspot.com/-9NAm22eDEto/U-DHXUfesWI/AAAAAAAACKE/0TLJfx30CFs/s1600/Pusheen-The-Cat-ASCII-Art.jpg) no-repeat;
+    /*background-size: 1300px 400px;*/
+    float: left;
+}
+
+body:hover {
+    background-color:#834467;
+    color:#353833;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:76%;
+    margin:30px;
+    background: url(http://greensteadcg.com/wp-content/uploads/2017/01/Calgary_Real_Estate_Market.jpg);
+}
+
+h1 {
+    color:#51dbd6;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:300%;
+    background: url(http://4.bp.blogspot.com/-9NAm22eDEto/U-DHXUfesWI/AAAAAAAACKE/0TLJfx30CFs/s1600/Pusheen-The-Cat-ASCII-Art.jpg);
+}
+
+h1:hover {
+    color:#783412;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:300%;
+}
+
+t {
+  color:#1234f6;
+  font-size:200%;
+}
+
+.ameeba {
+  color:#654321;
+}
+
+form t {
+  color:#576543;
+  background: url(http://tickets.ca/content/uploaded/Calgary.png);
+}
+
+#meksiko {
+  color:red;
+}
+
+.merkonomi {
+  color:#b3f442;
+}
+
+p {
+    font:20px Georgia, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    color:#003300;
+    text-align:left;
+    margin: 0 13px 10px 0px;
+    padding:0;
+    background:none;
+}
+
+#tekks {
+    font:20px Georgia, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    color:#003300;
+    text-align:left;
+    margin: 0 13px 10px 0px;
+    padding:0;
+    background:white;
+    border-style: groove;
+}
+
+.teksti {
+    font:20px Georgia, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    color:#ff4534;
+    text-align:left;
+    margin: 0 13px 10px 0px;
+    padding:0;
+    background:white;
+    border-style: ridge;
+}
+
+pre {
+    font:20px Georgia, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    color:#003300;
+    text-align:left;
+    margin: 0 13px 10px 0px;
+    padding:0;
+    background:none;
+}
+
+input[type=submit] {
+    font-size: 150%;
+    background-color: #ff7184;
+    border: none;
+    color: #f4e35d;
+    padding: 10px 22px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    font-size: 150%;
+    background-color: #ff7523;
+    border: none;
+    color: #f4e766;
+    padding: 10px 22px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+    
+input[type=radio] {
+    
+    font-size: 250%;
+    background-color: #ff7184;
+    border: none;
+    color: #f4e35d;
+    padding: 10px 22px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+    
+input[type=radio]:hover {
+    
+    font-size: 250%;
+    background-color: #3fF4af;
+    border: none;
+    color: #f4e35d;
+    padding: 10px 22px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+a {
+    font-size: 150%;
+    color : #a1f466; 
+    text-decoration : none; 
+} 
+
+a:visited {
+    font-size: 150%;
+    color : #a9f970; 
+    text-decoration : none;
+} 
+
+a:hover {
+    font-size: 150%;
+    color : #333333; 
+    text-decoration : underline; 
+} 
+
+tab1 { padding-left: 4em; }
